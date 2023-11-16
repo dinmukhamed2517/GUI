@@ -53,7 +53,6 @@ public class StudentPanel {
         markLabel.setBounds(10, 20, 120, 25);
         checkMarksPanel.add(markLabel);
 
-        // Assume you have a method to get the student's marks
         String studentMarks = getStudentMarks(studentName);
         JTextArea marksTextArea = new JTextArea(studentMarks);
         marksTextArea.setBounds(140, 20, 150, 100);
